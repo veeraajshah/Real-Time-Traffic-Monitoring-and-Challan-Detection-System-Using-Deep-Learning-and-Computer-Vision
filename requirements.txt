@@ -1,0 +1,26 @@
+# Core Backend Framework
+fastapi
+uvicorn
+
+# Deep Learning & Object Detection
+ultralytics
+torch
+torchvision
+
+# Computer Vision
+opencv-python
+numpy
+pillow
+
+# OCR (License Plate Recognition)
+easyocr
+
+# Data Handling
+pandas
+
+# API Utilities
+python-multipart
+
+# Optional but Recommended (stability & performance)
+scipy
+tqdm

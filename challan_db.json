@@ -1,0 +1,10 @@
+{
+  "MH12AB1234": {
+    "status": "Pending Challan Found",
+    "amount": 1500,
+    "violation": "Overspeeding"
+  },
+  "DL8CAF5031": {
+    "status": "No Pending Challan"
+  }
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Traffic Monitoring Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="app">
+  <h1> Real-Time Traffic Monitoring</h1>
+
+  <select id="videoSelect"></select>
+
+  <img id="videoStream">
+
+  <div class="controls">
+    <div class="card">
+      <label>Select Vehicle Type</label>
+      <select id="vehicleFilter">
+        <option value="">All</option>
+        <option value="car">Car</option>
+        <option value="motorbike">Bike</option>
+        <option value="bus">Bus</option>
+        <option value="truck">Truck</option>
+      </select>
+    </div>
+
+    <div class="card">
+      <h3>Challan Status</h3>
+      <div id="challanInfo">Select a vehicle type</div>
+    </div>
+
+    <div class="card">
+      <h3>Detected Number Plates</h3>
+      <div id="plates"></div>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

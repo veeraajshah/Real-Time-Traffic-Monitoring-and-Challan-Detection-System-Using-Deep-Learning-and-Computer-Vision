@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  background: #0f172a;
+  color: #e5e7eb;
+  font-family: 'Inter', sans-serif;
+}
+
+.app {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+select {
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  font-size: 14px;
+}
+
+#videoStream {
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 12px;
+  border: 2px solid #22c55e;
+}
+
+.controls {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.card {
+  background: #020617;
+  padding: 15px;
+  border-radius: 12px;
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #22c55e;
+}
+
+#plates p {
+  padding: 4px 0;
+  border-bottom: 1px solid #1e293b;
+}
